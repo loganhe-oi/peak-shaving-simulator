@@ -1510,9 +1510,9 @@
 
     $("#sensChart").innerHTML = `
       <line x1="${M.left}" y1="${M.bottom}" x2="${M.right}" y2="${M.bottom}" stroke="var(--border)" stroke-width="1.5"/>
-      <text x="${M.left - 8}" y="${M.top + 4}" text-anchor="end" font-size="10" fill="var(--text-muted)" font-family="ui-monospace, monospace">${fmtMoney(maxSens*100)}</text>
-      <text x="${M.left - 8}" y="${midY + 4}" text-anchor="end" font-size="10" fill="var(--text-muted)" font-family="ui-monospace, monospace">${fmtMoney(maxSens*50)}</text>
-      <text x="${M.left - 8}" y="${M.bottom + 4}" text-anchor="end" font-size="10" fill="var(--text-muted)" font-family="ui-monospace, monospace">$0</text>
+      <text x="${M.left - 8}" y="${M.top + 4}" text-anchor="end" font-size="10" fill="var(--text-muted)" font-family="'Roboto Mono', monospace">${fmtMoney(maxSens*100)}</text>
+      <text x="${M.left - 8}" y="${midY + 4}" text-anchor="end" font-size="10" fill="var(--text-muted)" font-family="'Roboto Mono', monospace">${fmtMoney(maxSens*50)}</text>
+      <text x="${M.left - 8}" y="${M.bottom + 4}" text-anchor="end" font-size="10" fill="var(--text-muted)" font-family="'Roboto Mono', monospace">$0</text>
       <text x="16" y="${midY}" text-anchor="middle" font-size="10" fill="var(--text-muted)" transform="rotate(-90 16 ${midY})">${t("sensYAxis")}</text>
       <text x="${M.left - 8}" y="${countRowY + 3}" text-anchor="end" font-size="9.5" font-weight="600" fill="var(--text-muted)">${t("sensCountLabel")}</text>
       <text x="${M.left - 8}" y="${roiRowY + 3}" text-anchor="end" font-size="9.5" font-weight="600" fill="var(--text-muted)">${t("sensRoiLabel")}</text>
